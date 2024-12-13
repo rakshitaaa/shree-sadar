@@ -106,13 +106,22 @@ ol {
 	  transform: rotate(-360deg);
 	}
   }
+
+  @keyframes moveRight {
+	0% {
+		left: 100%; /* Start at the left */
+	}
+	100% {
+		left: 10%; /* Move to the right */
+	}
+}
   
   .tyre-fe-2 {
     position: absolute;
     animation: spin 30s linear infinite;
     width: 10px;
-    top: 104%;
-    left: 48%;
+    top: 102%;
+    left: 56%;
     transform: translate(-50%, -50%);
 }
   .owl-carousel .owl-item img.tyre-fe-2{
@@ -123,12 +132,24 @@ ol {
     position: absolute;
     animation: spin 40s linear infinite;
     width: 10px;
-    top: 82%;
-    left: 73.2%;
+    top: 84%;
+    left: 78.2%;
     transform: translate(-50%, -50%);
 }
   .owl-carousel .owl-item img.tyre-fe-3{
 	width: 451px;
+  }
+
+  .machine-fe-1 {
+    position: absolute;
+    width: 10px;
+    top: 57%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+	transform: scaleX(-1);
+}
+  .owl-carousel .owl-item img.machine-fe-1{
+	width: 1605px;
   }
   
 
