@@ -3297,7 +3297,7 @@ h2.resp-accordion {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: #666\9;
+  background: #6669;
   background: rgba(80, 80, 80, 0.75);
   width: 100%;
 }
@@ -7743,6 +7743,8 @@ div.panel {
   /*width:86%*/
   float: right;
   padding-right: 4%;
+  /* changed */
+  margin-top: 0.5%;
 }
 .proDetal .is-sticky .logo {
   position: absolute;
@@ -8642,9 +8644,10 @@ div.panel {
     width: 100%;
     border-left: 26px solid transparent;
   }
-  .menuDiv {
+  /* changed by nameera for better UI */
+  /* .menuDiv {
     width: 65%;
-  }
+  } */ 
   nav.lgNav > ul > li > a {
     padding: 0 15px;
     letter-spacing: 0;
@@ -10452,16 +10455,16 @@ p.al {
 .lgNav .indus span {
   padding-right: 15px;
 }
-@media (max-width: 1250px) {
+/* @media (max-width: 1250px) {
   .menuDiv {
     width: 70%;
   }
-}
-@media (max-width: 1150px) {
+} */
+/* @media (max-width: 1150px) {
   .menuDiv {
     width: 80%;
   }
-}
+} */
 @media (max-width: 1100px) {
   .topNavMain {
     float: left;
